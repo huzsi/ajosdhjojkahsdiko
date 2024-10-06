@@ -1,0 +1,25 @@
+/* Mobil és Tablet mód */
+
+@media (max-width: 768px) {
+
+    .menu-button {
+        display: unset;
+    }
+
+    .kereses {
+        display: none;
+    }
+
+    .navbar {
+        flex-direction: row;
+    }
+    
+}
+
+/* Laptop és Asztali mód */
+
+@media (min-width: 769px) {
+    .menu-button {
+        display: none;
+    }
+}

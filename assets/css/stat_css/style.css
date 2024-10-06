@@ -1,0 +1,14 @@
+:root {
+
+    --default-red-color: #FF1801;
+
+
+}
+body{
+    background-color: #111111;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}

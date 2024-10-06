@@ -1,0 +1,6 @@
+footer{
+    text-align: center;
+    border: 5px solid var(--default-red-color);
+    border-radius: 15px;
+   
+}

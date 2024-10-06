@@ -1,0 +1,12 @@
+:root {
+
+    --default-red-color: #FF1801;
+}
+body{
+    background-color: var(--default-red-color);
+    margin: 0px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}

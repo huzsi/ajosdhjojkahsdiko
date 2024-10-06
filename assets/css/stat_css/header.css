@@ -1,0 +1,31 @@
+header{
+    border: 5px solid var(--default-red-color);
+    border-radius: 15px;
+
+}
+header>h1{
+    text-align: center;
+}
+.menu-container{
+    display: flex;
+
+}
+.menu{
+    margin: 15px;
+    text-align: left;
+}
+.menu>a{
+    margin: 10px;
+}
+.menu>a:hover{
+    color: var(--default-red-color);
+}
+.kereses{
+    margin: 15px;
+    position: absolute;
+    right: 15px;
+    display: block;
+}
+.logoF {
+    color: var(--default-red-color);
+}

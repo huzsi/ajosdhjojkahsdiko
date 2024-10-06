@@ -1,0 +1,70 @@
+/*
+    header{
+        border: 5px solid var(--default-red-color);
+        border-radius: 15px;
+    
+    }
+    header>h1 {
+        margin: 15px;
+    }
+    .menu-container{
+        display: flex;
+    
+    }
+    .menu{
+        margin: 15px;
+        text-align: left;
+    }
+    .menu>a{
+        margin: 10px;
+    }
+    .kereses{
+        margin: 15px;
+        position: absolute;
+        right: 15px;
+        top: 25px; 
+        display: flex;
+        flex-direction: column;
+    }
+*/
+
+.header{
+    background-color: whitesmoke;
+}
+header>h1{
+    padding: 15px;
+    
+}
+.menu-container{
+   
+    background-color: lightgray;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: transform 0.3s ease-in-out;
+    transform: translateY(-90%); /* Alaphelyzetben felhúzva */
+}
+.menu-item a:hover {
+    background-color: #575757;
+}
+.menu-container:hover{
+    transform: translateY(0);
+}
+.menu-item a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+.kereses{
+    position: absolute;
+    right: 15px;
+}

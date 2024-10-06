@@ -1,0 +1,27 @@
+main{
+    text-align: center;
+    
+    
+}
+.content-container{
+    display: flex;
+    justify-content: center;
+}
+main>h1{
+    text-decoration: underline ;
+}
+main>h2{
+    text-decoration: underline;
+}
+
+.menu1>a {
+    display: block;
+    text-align: center;
+    margin: 15px;
+    color: #656363;
+    width: 200px;
+}
+
+.menu1>a:hover {
+    color: #939090;
+}

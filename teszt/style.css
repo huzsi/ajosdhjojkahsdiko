@@ -1,0 +1,15 @@
+:root {
+
+    --default-red-color: #FF1801;
+}
+body{
+    background-color: whitesmoke;
+    margin: 0px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.content{
+    background-color: whitesmoke;
+}

@@ -1,0 +1,16 @@
+main{
+    padding: 15px;
+    background-color: whitesmoke;
+    height: 100vh;
+}
+.news{
+    border: 3px solid var(--default-red-color);
+    border-radius: 15px;
+    margin: 15px;
+}
+.news>h3{
+    margin: 5px
+}
+.news>p{
+    margin: 5px;
+}
